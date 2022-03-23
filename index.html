@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="shortcut icon" href="./static/images/weather-app.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="main-section">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" name="search-city" id="search-input" placeholder="Nhập tên thành phố"
+                    class="search-input">
+            </div>
+            <div class="info-wrap">
+                <p class="city-name">Ho Chi Minh</p>
+                <p class="weather-status">Nang gat</p>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" class="weather-img">
+                <p class="temperature">26</p>
+            </div>
+        </div>
+        <div class="additonal-section">
+            <div class="row">
+                <div class="item">
+                    <div class="label">MT mọc</div>
+                    <div class="value sun">5:00</div>
+                </div>
+                <div class="item">
+                    <div class="label">MT lặn</div>
+                    <div class="value moon">5:00</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <div class="label">Độ ẩm</div>
+                    <div class="value"><span class="humid">73%</span></div>
+                </div>
+                <div class="item">
+                    <div class="label">Gió</div>
+                    <div class="value"><span class="speed">5.45km/h</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./static/js/app.js"></script>
+<script src="./static/js/moment.js"></script>
+
+<!-- <script src=""></script>
+<script src=""></script> -->
+
+</html>

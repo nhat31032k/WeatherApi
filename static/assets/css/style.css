@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  color: #fefefe;
+  background: linear-gradient(145deg, #2193b0, #6dd5ed);
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.search-bar {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #fefefe;
+  padding-top: 20px;
+}
+.search-icon {
+  margin-right: 5px;
+  position: absolute;
+  left: 0;
+}
+.search-input {
+  border: 0;
+  outline: 0;
+  padding: 2px 3px 3px 20px;
+  background-color: transparent;
+  height: 20px;
+  color: #fff;
+}
+.search-input::placeholder {
+  color: #fff;
+}
+
+.info-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh;
+  padding: 80px 50px;
+}
+.info-wrap .city-name {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.info-wrap .weather-status {
+  font-size: 13px;
+}
+.info-wrap .weather-icon {
+  width: 70px;
+  height: 70px;
+}
+.info-wrap .temperature {
+  font-size: 80px;
+  font-weight: lighter;
+  line-height: 1;
+  position: relative;
+}
+.info-wrap .temperature:after {
+  content: "°";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  font-size: 40px;
+}
+
+.additonal-section {
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+.additonal-section .row {
+  margin-bottom: 5px;
+  display: flex;
+}
+.additonal-section .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.additonal-section .item .label {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
